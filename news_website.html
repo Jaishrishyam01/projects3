@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKT NEWS</title>
+    <link rel="stylesheet" href="aktnews.css"> 
+</head>
+<body>
+    <nav>
+    <div class="nav">
+     <div class="nav_logo">
+        <img src="https://aktconsulting.co/wp-content/uploads/2017/09/AKT.png">
+     </div>
+     <div class="nav_links">
+        <a class="ipl" href="#">IPL</a>
+        <a class="fin" href="#">Finance</a>
+        <a class="pol" href="#">Politics</a>
+     </div>
+     <div class="nav_searchbar">
+     <input type="text" class="news_input" placeholder="e.g. Science">
+     <button class="search_button">Search</button>
+    </div>
+    </div>
+</nav>
+<main>
+  <div class="cards-container">
+    
+  </div>
+</main>
+<template id="template-news-card">
+    <div class="cards">
+        <div class="card-header">
+            <img src="https://via.placeholder.com/400*200">
+        </div>
+        <div class="card-content">
+            <h3 id="news_title">This is the content</h3>
+            <h6 class="news-source" id="news-source">End Gadget 26/08/2023 </h6>
+            <p class="news-desc" id="news-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur inventore quasi est ipsa eaque delectus voluptas nisi iure quis repellendus.</p>
+        </div>
+    </div>
+</template>
+<script src="aktnews.js"> </script>
+</body>
+</html>
